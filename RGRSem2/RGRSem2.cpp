@@ -298,8 +298,6 @@ void equation()
 	cin >> b;
 	cout << "Введите погрешность: ";
 	cin >> e;
-	cout << "Метод половинного деления: " << poldel(a,b,e) << endl;
-	cout << "Метод хорд: " << hord(a,b,e) << endl;
 }
 
 double inf(double x)
